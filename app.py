@@ -4337,6 +4337,7 @@ HTML_TEMPLATE = """
             <button onclick="handleLogin()" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 rounded-xl shadow-md transition">
                 Login Now
             </button>
+            <p class="text-xs text-slate-400 mt-5">Portal Developed by Mr. Sonu (NCSA0608)</p>
         </div>
     </div>
 
@@ -4511,6 +4512,10 @@ HTML_TEMPLATE = """
         </div>
 
     </div>
+
+    <footer class="max-w-5xl mx-auto px-4 pb-5 text-center text-xs text-slate-400">
+        Portal Developed by Mr. Sonu (NCSA0608)
+    </footer>
 
     <script>
         const EMPLOYEE_PASS = "123";
